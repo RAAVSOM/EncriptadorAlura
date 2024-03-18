@@ -251,10 +251,12 @@ body{
 
     .list-Element{
         height: 15vh;
+        width: 100%;
     }
 
     .list-container{
         height: 10vh;
+        width: 100%;
     }
 
     .butonDiv{
@@ -328,7 +330,7 @@ body{
         width: 100%;
     }
 
-    .list-Content{
+    .list-container{
         width:100%;
     }   
 
