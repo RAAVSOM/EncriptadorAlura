@@ -325,8 +325,12 @@ body{
 
     .list-Element{
         height: 13vh;
-        width: 50vh;
+        width: 100%;
     }
+
+    .list-Content{
+        width:100%;
+    }   
 
     .mensajeN{
         margin-bottom: -2px;
