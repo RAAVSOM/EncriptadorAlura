@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto - Alura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="logo" src="Logo.png" height="48" width="120">
+    <div class="general">
+        <div class="container">
+            <div class="encripter">
+                <div class="content">
+                    <textarea id="TextArea" class="inputText" placeholder="Ingrese el texto aqui"></textarea>
+                    <p class="info">Solo letras minúsculas y sin acentos</p>
+                    <div class="inputs">
+                        <input class="inputEn" type="button" onclick="prepararEncriptado()" value="Encriptar">
+                        <input class="inputDes" type="button" onclick="desencriptar()" value="Desencriptar">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="historys">
+                <div id="List-Element" class="list-Element">
+                    <div class="list-container">
+                        <ul class="list">
+                        </ul>
+                    </div>
+                    <div class="butonDiv">
+                        <input id="copybutton" class="buton" type="button" value="Copiar">
+                    </div>
+                </div>
+                <div id="None-Content" class="none-Content">
+                    <img class="imgGuide" src="Muñeco.png" height="304" width="336">
+                    <p class="mensajeN">Ningun mensaje fue encontrado</p>
+                    <p class="mensajeE">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+        </div>
+        <footer class="foot">
+            <h3>Creado por:</h3>
+            <p>Alejandro Socarras Olascuaga</p>
+        </footer>
+    </div>
+    <script src="encripter.js"></script>
+</body>
+</html>
